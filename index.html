@@ -16,7 +16,7 @@
 
     <div class="form">
       <form id="login-form">
-        <input type="text" id="email" placeholder="enter email here">
+        <input type="text" id="email" placeholder="enter email here" required>
         <input type="password" id="password" placeholder="secret">
         <button type="submit">login</button>
       </form>
@@ -24,10 +24,14 @@
     <div id="result" class="hide">
       <h2>Sveiki sugryze.</h2>
       <p>Siuo metu prisijunges yra: <span id="login-email"></span></p>
-      <button>Logout</button>
+      <button id="logout">Logout</button>
     </div>
   </div>
 
+  <div class="flex card">
+    <h3>Musu slapuku <a href="terms-and-conditions.html">politika</a></h3>
+    <button>Sutinku</button>
+  </div>
 
 </body>
 
